@@ -9,12 +9,14 @@
 <body class="body">
 	<div class="wrapper">
 		<nav class="navBar">
-			<ul class="listStyle">
-				<li class="listStyle"><a class="linkFont" href="index.html">Home</a></li>
-				<li class="listStyle"><a class="linkFont" href="browse.html">Browse</a></li>
-				<li class="listStyle"><a class="linkFont" href="adopt.html">Adopt</a></li>
-				<li class="listStyle"><a class="linkFont" href="about.html">About</a></li>
-			</ul>
+			<div class="table">
+				<ul class="listStyle">
+					<li class="listStyle"><a class="linkFont" href="index.html">Home</a></li>
+					<li class="listStyle"><a class="linkFont" href="browse.html">Browse</a></li>
+					<li class="listStyle"><a class="linkFont" href="adopt.html">Adopt</a></li>
+					<li class="listStyle"><a class="linkFont" href="about.html">About</a></li>
+				</ul>
+			</div>
 		</nav>
 
 		<div class="mainBody">
@@ -25,19 +27,43 @@
 		<form class="infoBox" action="adopt_submit" method="POST" accept-charset="utf-8">
 			<fieldset>
 				<legend>Personal Information</legend>
-	      <input type="text" id="first-name" placeholder="First Name">
+	      <input type="text" id="first-name" placeholder="First Name" required>
 	      <input type="text" id="middle-initial" placeholder="Middle Initial">
-	      <input type="text" id="last-name" placeholder="Last Name">
+	      <input type="text" id="last-name" placeholder="Last Name" required>
 	      <p class="gap"></p>
 	      <input type="text" id="street-number" placeholder="Street Address">
 	      <input type="text" id="city" placeholder="City">
 	      <input type="text" id="state" placeholder="State">
 	      <input type="text" id="zipcode" placeholder="Zip Code">
 	      <p class="gap"></p>
-	      <input type="tel" id="phone-number" placeholder="Phone Number">
-      	<input type="email" id="email" placeholder="Email Address">
+	      <input type="tel" id="phone-number" placeholder="Phone Number" required>
+      	<input type="email" id="email" placeholder="Email Address" required>
 			</fieldset>
-
+			<fieldset>
+				<legend>Grandparent Information</legend>
+				<label for="gp-name">Their Name:</label>
+				<input type="text" id="gp-name" placeholder="Name">
+				<label for="gender">Gender:</label>
+				<input name="gender-type" list="gender" placeholder="            -- Gender --  ">
+				<datalist id="gender">
+					<option value="Female">
+					<option value="Male">
+				</datalist>
+				<label for="spec-needs">Special Needs:</label>
+				<input name="needs" list="spec-needs" placeholder="            -- Needs --  ">
+				<datalist id="spec-needs">
+					<option value="Dementia">
+					<option value="Incontinence">
+					<option value="Hard of Hearing">
+					<option value="Bitter">
+					<option value="Cheek Pincher">
+				</datalist>
+			</fieldset>
+			<fieldset>
+	      <legend>Comments?</legend>
+	      <textarea name="comments" rows="7" cols="105" placeholder="Please provide any additional information here"></textarea>
+	    </fieldset>
+	    <input class="right" type="submit" value="Submit">
 		</form>
 
 

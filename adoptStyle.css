@@ -17,11 +17,16 @@
 	padding: 30px 10px;
 }
 
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
 .listStyle {
 	display: inline;
 	list-style: none;
-	padding: 90px;
 	font-size: 30px;
+  word-spacing: 5.5em;
 }
 
 .linkFont {
@@ -64,6 +69,30 @@ p.bodyStyle {
 
 p.gap {
   margin: 0;
+}
+
+input[type="email"]:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+input[id="first-name"]:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+input[id="last-name"]:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+input[type="tel"]:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+input:required {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+.right {
+  align-items: right;
 }
 
 /*Footer*/
