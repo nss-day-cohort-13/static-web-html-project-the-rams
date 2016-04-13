@@ -54,6 +54,13 @@ a:visited {
   text-align: center;
 }
 
+article.card {
+  width: 30%;
+  height: auto;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 18px;
+}
 
 /*Footer*/
 
