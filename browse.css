@@ -62,6 +62,14 @@ article.card {
   margin: 18px;
 }
 
+.nope {
+  text-align: left;
+}
+
+.just {
+  text-align: justify;
+}
+
 /*Footer*/
 
 footer {
