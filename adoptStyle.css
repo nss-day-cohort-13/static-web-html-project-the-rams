@@ -45,6 +45,27 @@ a:visited {
 	padding: 15px;
 }
 
+h1.headStyle {
+  text-align: center;
+}
+
+p.bodyStyle {
+  text-align: justify;
+  padding: 0 30px;
+}
+
+.infoBox {
+  padding: 0 250px;
+}
+
+.break {
+  display: inline-block;
+}
+
+p.gap {
+  margin: 0;
+}
+
 /*Footer*/
 
 footer {
