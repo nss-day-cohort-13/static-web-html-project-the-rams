@@ -54,6 +54,21 @@ a:visited {
   text-align: center;
 }
 
+.card {
+  width: 30%;
+  height: auto;
+  border: 1px solid black;
+  display: inline;
+  margin: 15px;
+}
+
+.nope {
+  text-align: left;
+}
+
+.just {
+  text-align: justify;
+}
 
 /*Footer*/
 
