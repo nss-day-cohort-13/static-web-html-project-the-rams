@@ -17,6 +17,11 @@
 	padding: 30px 10px;
 }
 
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
 .listStyle {
 	display: inline;
 	list-style: none;
