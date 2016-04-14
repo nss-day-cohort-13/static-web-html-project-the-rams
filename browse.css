@@ -62,6 +62,7 @@ a:visited {
   margin: 15px;
   vertical-align: top;
   text-align: center;
+  background-color: #FAEBD7;
 }
 
 .nope {
@@ -73,7 +74,7 @@ a:visited {
 }
 
 .browseIMG {
-  width: 275px;
+  width: 50%;
 }
 /*Footer*/
 
