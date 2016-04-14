@@ -33,7 +33,7 @@ var oldie4 = {
   name: "Carl Fredricksen",
   pic: "http://czechmatediary.com/wp-content/uploads/2012/01/Sad-Up.jpg",
   about: "Carl is big into travel. He enjoys spending time in South America. He can be cranky and isn't much of a talker but that doesn't mean he doesn't want your love.",
-  fee: "$500 (to defray travel costs",
+  fee: "$500 (to defray travel costs)",
 };
 
 productsArray.push(oldie4);

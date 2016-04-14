@@ -61,10 +61,10 @@ a:visited {
 /*Image*/
 
 .images {
-	/*padding: 0 30px;*/
-	padding: block;
-	margin: 0 auto;
-	width: 1142px;
+	padding: 0 30px;
+	margin: 0 35px;
+	width: 40%;
+	display: inline;
 }
 
 .scooter {
