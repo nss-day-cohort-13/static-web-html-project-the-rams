@@ -57,9 +57,11 @@ a:visited {
 .card {
   width: 30%;
   height: auto;
-  border: 1px solid black;
-  display: inline;
+  border: 2px solid black;
+  display: inline-block;
   margin: 15px;
+  vertical-align: top;
+  text-align: center;
 }
 
 .nope {
@@ -70,6 +72,9 @@ a:visited {
   text-align: justify;
 }
 
+.browseIMG {
+  width: 275px;
+}
 /*Footer*/
 
 footer {
